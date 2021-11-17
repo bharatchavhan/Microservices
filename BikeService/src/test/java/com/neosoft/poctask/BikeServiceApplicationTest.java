@@ -17,10 +17,10 @@ import com.neosoft.poctask.model.Bikes;
 import com.neosoft.poctask.service.BikeServiceImp;
 
 
-@SpringBootTest(classes=Poc4microservice2Application.class)
+@SpringBootTest(classes=BikeServiceApplication.class)
 @Import(BikeServiceImp.class)
 @RunWith(SpringRunner.class)
-public class Poc4microservice2ApplicationTests {
+public class BikeServiceApplicationTest {
 
 	
 	@Autowired

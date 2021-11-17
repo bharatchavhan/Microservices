@@ -10,9 +10,8 @@ import com.neosoft.poctask.model.Bikes;
 //@Repository
 //@FeignClient(name= "bikeservice")//,url="http://BIKESERVICE/bike")
 public interface FeignService {
+	
 	@GetMapping("/getAllBike/{id}")
 	List<Bikes> getAllBikesByUserId(int id);
-
-
 
 }

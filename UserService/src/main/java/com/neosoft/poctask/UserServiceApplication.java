@@ -16,10 +16,10 @@ import com.neosoft.poctask.model.User;
 //@EnableDiscoveryClient
 //@EnableFeignClients
 //@ComponentScan({ "com.neosoft.poctask.repository" })
-public class Poc4microservice1Application {
+public class UserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Poc4microservice1Application.class, args);
+		SpringApplication.run(UserServiceApplication.class, args);
 
 		System.out.println("microservice1");
 

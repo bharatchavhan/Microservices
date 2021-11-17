@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class Poc4microservice2Application {
+public class BikeServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Poc4microservice2Application.class, args);
+		SpringApplication.run(BikeServiceApplication.class, args);
 		
 		System.out.println("microservice2");
 	}

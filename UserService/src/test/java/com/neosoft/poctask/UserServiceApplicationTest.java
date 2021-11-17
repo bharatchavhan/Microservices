@@ -15,10 +15,10 @@ import org.junit.runner.RunWith;
 import com.neosoft.poctask.model.User;
 import com.neosoft.poctask.service.ServiceImp;
 
-@SpringBootTest(classes=Poc4microservice1Application.class)
+@SpringBootTest(classes=UserServiceApplication.class)
 @Import(ServiceImp.class)
 @RunWith(SpringRunner.class)
-public class Poc4microservice1ApplicationTests {
+public class UserServiceApplicationTest {
 
 	
 	@Autowired
