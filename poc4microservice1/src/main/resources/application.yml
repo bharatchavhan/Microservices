@@ -1,0 +1,8 @@
+# feign.httpclient.enabled: true
+
+# feign:
+#   client:
+#     config:
+#       default:
+#         connectTimeout: 5000
+#         readTimeout: 5000
